@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Jogos</title>
+    <style>
+        *{
+    padding: 0px;
+    margin: 0px;
+}
+        .cabeçalho{
+            display: flex;
+            height: 200px;
+            width: 100%;
+            text-align: center;
+            border: none;
+        }
+
+        .menu{
+            border-bottom: 6px solid black;
+            border-right: 5px solid black;
+            font-size: 30px;
+            background-color: gray;
+            position: absolute;
+            height: 150%;
+            width: 25%;
+        }
+
+        #conteúdo{
+            border: 3px solid gray;
+            position: absolute;
+            background-color: gray;
+            margin-left: 25.3%;
+            width: 1002px;
+            height: 150%;
+        
+        }
+
+        iframe{
+            overflow: hidden;
+        }
+
+        a{
+            text-decoration: none;
+            color: greenyellow;
+            font-family: fantasy;
+            font-size: 40px;
+            display: block;
+            padding: 10px 20px;
+        }
+        a:hover{
+    color: red;
+}
+    </style>
+</head>
+<body>
+    <div>
+    <iframe frameborder="0" scrolling="no" class="cabeçalho" src="iframe1.html"></iframe>
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="Link1.html" target="informações">Battle Royale</a></li>
+            <li><a href="Link2.html" target="informações">MMORPG</a></li>
+            <li><a href="Link3.html" target="informações">FPS</a></li>
+            <li><a href="Link4.html" target="informações">Esportes</a></li> 
+            <li><a href="Link5.html" target="informações">Luta</a></li>
+            <li><a href="Link6.html" target="informações">Corrida</a></li>
+        </ul>
+    </nav>
+
+    <iframe frameborder="0" scrolling="no" id="conteúdo" name="informações" src=""></iframe>
+    
+</body>
+</html>
